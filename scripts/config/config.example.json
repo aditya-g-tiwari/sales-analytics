@@ -1,0 +1,15 @@
+{
+  "region": "us-east-1",
+  "postgres_host": "dea.cgyi97rb4alr.us-east-1.rds.amazonaws.com",
+  "postgres_port": 5432,
+  "postgres_database": "dea_analytics_dev",
+  "secret_id": "sales-analytics/postgres",
+  "jdbc_sslmode": "require",
+  "s3_base_path": "s3://sales-analytics-aditya-task-2/raw/",
+  "tables": {
+    "raw.leads_raw": "leads",
+    "raw.lead_activites_raw": "lead_activities",
+    "raw.close_crm_users_raw": "close_crm_users",
+    "raw.custom_activites_raw": "custom_activities"
+  }
+}
